@@ -1,0 +1,35 @@
+Êþº¾   3 Š   com/epam/CollectionFrameWork/App  java/lang/Object <init> ()V Code
+  	   LineNumberTable LocalVariableTable this "Lcom/epam/CollectionFrameWork/App; main ([Ljava/lang/String;)V  java/util/Scanner	    java/lang/System   in Ljava/io/InputStream;
+     (Ljava/io/InputStream;)V	     out Ljava/io/PrintStream;   C-------- Student List --------
+Enter the total number of students :
+ " $ # java/io/PrintStream % & println (Ljava/lang/String;)V
+  ( ) * nextInt ()I ,  com/epam/CustomLists/StudentList
+ + .  / (I)V 1 java/lang/StringBuilder 3 Enter Student - 
+ 0 5  &
+ 0 7 8 9 append (I)Ljava/lang/StringBuilder; ;  name : 
+ 0 = 8 > -(Ljava/lang/String;)Ljava/lang/StringBuilder;
+ 0 @ A B toString ()Ljava/lang/String;
+ " D E & print
+  G H B next J  Class/Standard : L 
+ Roll No : N  age : P 
+ address : R com/epam/models/Student
+ T V U java/lang/Integer W X valueOf (I)Ljava/lang/Integer;
+ Q Z  [ _(Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/String;)V
+ + ] ^ _ add (Lcom/epam/models/Student;)Z a 
+The Created Student list is :
+ + c d  size
+ + f g  display i *
+---- The Shrinking Student list is : ----
+ + k l m remove (I)Lcom/epam/models/Student; o 
+The List After Deletion is : q %
+-------- The LIST is Empty --------
+
+  s t  close args [Ljava/lang/String; scanner Ljava/util/Scanner; noOfStudents I studentList "Lcom/epam/CustomLists/StudentList; i name Ljava/lang/String; standard rollNo age address student Lcom/epam/models/Student; 
+StackMapTable v 
+SourceFile App.java !               /     *· ±    
+                 
+   	          P» Y² · L² ¶ !+¶ '=» +Y· -N6§ Ú² » 0Y2· 4`¶ 6:¶ <¶ ?¶ C+¶ F:² » 0Y2· 4`¶ 6I¶ <¶ ?¶ C+¶ '6² » 0Y2· 4`¶ 6K¶ <¶ ?¶ C+¶ F:² » 0Y2· 4`¶ 6M¶ <¶ ?¶ C+¶ '6² » 0Y2· 4`¶ 6O¶ <¶ ?¶ C+¶ F:	» QY¸ S¸ S	· Y:
+-
+¶ \W„¡ÿ&² `¶ !-¶ b-¶ e² h¶ !d6§ -¶ jW² n¶ !-¶ b-¶ e„ÿœÿä² p¶ !+¶ r±    
+   ~      	     !  '  E  K  i  o    “  ±  ·  Õ  Û  ô  û       !$ "+ #3 $7 %; !C 'K (O )    z   P u v   E w x  8 y z  !/ { |  $ à } z  K ° ~   o Œ € z  “ h    · D ‚ z  Û   ƒ  	 ô  „ … 
+! " } z  †    ÿ '  ‡  +  û Ö%  ˆ    ‰
