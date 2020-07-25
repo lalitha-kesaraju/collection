@@ -1,0 +1,16 @@
+Êþº¾   3 0  com/epam/models/Student  java/lang/Object name Ljava/lang/String; standard Ljava/lang/Integer; rollNo age address <init> _(Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/String;)V Code
+     ()V	    	    	   	 	   
+ 	     LineNumberTable LocalVariableTable this Lcom/epam/models/Student; getName ()Ljava/lang/String; 	getRollNo getStandard ()Ljava/lang/Integer; getAge 
+getAddress setName (Ljava/lang/String;)V 	setRollNo setStandard (Ljava/lang/Integer;)V setAge 
+setAddress 
+SourceFile Student.java !                 	     
+            
+     ”      *· *+µ *µ *µ *,µ *-µ ±              	 
+            >                     
+                     	      !     /     *´ °                         " !     /     *´ °                         # $     /     *´ °                         % $     /     *´ °                          & !     /     *´ °           $              ' (     >     *+µ ±       
+    (  )                    ) (     >     *+µ ±       
+    ,  -                	    * +     >     *+µ ±       
+    0  1                    , +     >     *+µ ±       
+    4  5                
+    - (     >     *+µ ±       
+    8  9                    .    /
