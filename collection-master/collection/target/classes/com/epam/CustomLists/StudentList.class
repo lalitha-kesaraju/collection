@@ -1,0 +1,47 @@
+Êþº¾   3    com/epam/CustomLists/StudentList  java/lang/Object student Ljava/util/ArrayList; 	Signature 0Ljava/util/ArrayList<Lcom/epam/models/Student;>; <init> (I)V Code
+  
+ 	  ()V  java/util/ArrayList
+   	 
+	     LineNumberTable LocalVariableTable this "Lcom/epam/CustomLists/StudentList; n I indexOf (Lcom/epam/models/Student;)V
+     (Ljava/lang/Object;)I e Lcom/epam/models/Student; add (Lcom/epam/models/Student;)Z
+  % " & (Ljava/lang/Object;)Z (ILcom/epam/models/Student;)V
+  ) " * (ILjava/lang/Object;)V i remove (I)Lcom/epam/models/Student;
+  / , 0 (I)Ljava/lang/Object; 2 com/epam/models/Student
+  4 , & display
+  7 8 0 get	 : < ; java/lang/System = > out Ljava/io/PrintStream; @ java/lang/StringBuilder B 
+
+ Student 
+ ? D 	 E (Ljava/lang/String;)V
+ ? G H I append (I)Ljava/lang/StringBuilder; K 
+: { Name :
+ ? M H N -(Ljava/lang/String;)Ljava/lang/StringBuilder;
+ 1 P Q R getName ()Ljava/lang/String; T 
+, Class : 
+ 1 V W X getStandard ()Ljava/lang/Integer;
+ ? Z H [ -(Ljava/lang/Object;)Ljava/lang/StringBuilder; ] , Roll No : 
+ 1 _ ` R 	getRollNo b , Age : 
+ 1 d e X getAge g , Address : 
+ 1 i j R 
+getAddress l  }
+ ? n o R toString
+ q s r java/io/PrintStream t E println
+  v w x size ()I stu 
+StackMapTable | 
+The Student list size is :  
+SourceFile StudentList.java !                  	 
+     M     *· *» Y· µ ±               
+                          B     
+*´ +¶ W±       
+     	         
+       
+   !   " #     =     	*´ +¶ $¬                   	       	   !   " '     L     
+*´ ,¶ (±       
+     	          
+       
+ +     
+   !   , -     @     *´ ¶ .À 1°                           +    ,      B     
+*´ +¶ 3W±       
+    " 	 #        
+       
+   !   5      î     y<§ k*´ ¶ 6À 1M² 9» ?YA· C`¶ FJ¶ L,¶ O¶ LS¶ L,¶ U¶ Y\¶ L,¶ ^¶ La¶ L,¶ c¶ Yf¶ L,¶ h¶ Lk¶ L¶ m¶ p„*´ ¶ u¡ÿ±       .    &  '  ( # ) / * ; + G , S - g ( j & x 0         y      v +    Y y !  z   	 ü û g  w      K     ² 9» ?Y{· C*´ ¶ u¶ F¶ m¶ p±       
+    3  4              }    ~
