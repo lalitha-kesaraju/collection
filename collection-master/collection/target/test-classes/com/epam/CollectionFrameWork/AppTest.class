@@ -1,0 +1,11 @@
+Êþº¾   3   $com/epam/CollectionFrameWork/AppTest  java/lang/Object <init> ()V Code
+  	   LineNumberTable LocalVariableTable this &Lcom/epam/CollectionFrameWork/AppTest; shouldAnswerWithTrue RuntimeVisibleAnnotations Lorg/junit/Test;
+    org/junit/Assert   
+assertTrue (Z)V 
+SourceFile AppTest.java !               /     *· ±    
+       
+          
+                  3     ¸ ±    
+   
+                
+        
